@@ -1,6 +1,6 @@
 # :pushpin: GO-Cloud Project
 [TEST](#4-트러블-슈팅)
-[TEST](4-1-상세페이지-Nav-bar의-색상이-차례로-활성화되는-오류)
+[TEST](41-상세페이지-Nav-bar의-색상이-차례로-활성화되는-오류)
 > 공간대여 플랫폼 개발 | [구현 영상](https://youtu.be/LltdW7TfhcU)
 
 </br>
