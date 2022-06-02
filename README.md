@@ -67,7 +67,8 @@
 - 만들어진 Nav bar는 `position: sticky`를 이용하여 스크롤을 내릴 때 일정 위치가 되면 상단에 고정되도록 구현했음.
 - `React-Scroll` 라이브러리를 이용하여 상단 고정된 Nav bar에 메뉴 탭을 클릭하면 해당 위치로 이동하도록 구현
 - 클릭했을 때 클릭 이벤트를 읽어서 해당 메뉴탭의 색상이 활성화 되도록 했음.
-  - 이 과정의 트러블슈팅은 [여기](#4-1.-상세페이지-nav-bar의-색상이-차례로-활성화되는-오류)
+
+  - 이 과정의 트러블슈팅은 [여기](#4.-트러블-슈팅)
 
 <br>
 
@@ -103,8 +104,6 @@
   2. 읽어진 id를 `idCheck` state에 담아줬음
   3. 담겨진 `idCheck` state를 이용해 className에 조건문을 작성하여 읽어진 아이디값과 idcCheck에 담겨진 값이 같을 경우에만 활성화되도록 구현함.
 
-  #Stack Program
-
 <br>
 
 ### 4-2. DatePiker 라이브러리 설치시 에러발생
@@ -114,7 +113,7 @@
 
   :pushpin: [참고자료](https://velog.io/@yonyas/Fix-the-upstream-dependency-conflict-installing-NPM-packages-%EC%97%90%EB%9F%AC-%ED%95%B4%EA%B2%B0%EA%B8%B0)
 
-`--legacy-peer-deps`를 이용하여 충돌을 무시하는 방향으로 라이브러리 설치, 문제없이 동작함.
+  → `--legacy-peer-deps`를 이용하여 충돌을 무시하는 방향으로 라이브러리 설치, 문제없이 동작함.
 
 <br>
 
